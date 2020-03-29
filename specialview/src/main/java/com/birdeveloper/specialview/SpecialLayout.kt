@@ -7,13 +7,14 @@ import android.view.animation.Animation
 import android.view.animation.Interpolator
 import android.view.animation.ScaleAnimation
 import android.widget.RelativeLayout
+import androidx.constraintlayout.widget.ConstraintLayout
 /**
  * This layout will help you a lot while designing!
  * Bu layout size tasarım yaparken çok yardımcı olacak!
  * for more: https://github.com/birdeveloper
  * @author birdeveloper - Görkem KARA
  */
-class SpecialLayout:RelativeLayout, View.OnClickListener, Animation.AnimationListener {
+class SpecialLayout:ConstraintLayout, Animation.AnimationListener {
     var amplitude:Float = 0.toFloat()
     private var pClick:OnClickListener? = null
     var frequency:Float = 0.toFloat()
@@ -183,7 +184,7 @@ class SpecialLayout:RelativeLayout, View.OnClickListener, Animation.AnimationLis
         }
         else
             background = gd
-        setOnClickListener(this)
+        //setOnClickListener(this)
         ta.recycle()
     }
     fun setShape(shape:Int) {
@@ -218,7 +219,7 @@ class SpecialLayout:RelativeLayout, View.OnClickListener, Animation.AnimationLis
         this.interpolate = interpolate
     }
 
-    override fun setOnClickListener(l: OnClickListener?) {
+/*    override fun setOnClickListener(l: OnClickListener?) {
         if (init)
         {
             super.setOnClickListener(l)
@@ -257,7 +258,7 @@ class SpecialLayout:RelativeLayout, View.OnClickListener, Animation.AnimationLis
     }
     fun startAnimation() {
         startAnimation(animation)
-    }
+    }*/
     override fun setBackgroundColor(color:Int) {
         throw RuntimeException("setBackgroundColor not supported!")
     }
@@ -267,7 +268,7 @@ class SpecialLayout:RelativeLayout, View.OnClickListener, Animation.AnimationLis
         gd.setColor(color)
         if (isClickAfterAnimation && pClick != null)
         {
-            pClick!!.onClick(view)
+            //pClick!!.onClick(view)
         }
     }
     override fun onAnimationRepeat(animation:Animation) {
