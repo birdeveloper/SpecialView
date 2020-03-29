@@ -1,0 +1,3 @@
+rootProject.name='SpecialViewExample'
+include ':app'
+include ':specialview'
