@@ -15,7 +15,7 @@
     <img src="Screenshot_1.png" alt="ScreenShot" width="250" height="300">
   </a>
 
-  <h3 align="center">Super Layout</h3>
+  <h3 align="center">Special Layout</h3>
 
   <p align="center">
     This layout will help you a lot while designing!
