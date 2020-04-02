@@ -212,6 +212,9 @@ class SpecialLayout:ConstraintLayout, Animation.AnimationListener {
     fun setColor(color:Int) {
         gd.setColor(color)
     }
+    fun getColor(): Int {
+        return gd.color!!.defaultColor
+    }
     fun setCornerRadii(radii:FloatArray) {
         gd.cornerRadii = radii
     }
