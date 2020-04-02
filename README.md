@@ -15,7 +15,7 @@
     <img src="Screenshot_1.png" alt="ScreenShot" width="250" height="300">
   </a>
 
-  <h3 align="center">Super Layout</h3>
+  <h3 align="center">Special Layout</h3>
 
   <p align="center">
     This layout will help you a lot while designing!
@@ -49,18 +49,18 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## [About The Project](#about-the-project)
+## About The Project
 
 With this library you will stop creating backgrounds that are constantly drawable. Because this layout will allow you to see many things simultaneously, such as background color, radius values, gradient colors, while you design. SpecialLayout is derived from a ConstraintLayout layout.
 **This library will save you from confusion while saving you time.**
 
 
 <!-- GETTING STARTED -->
-## [Getting Started](#getting-started)
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-### [Installation](#installation)
+### Installation
  
 To get a Git project into your build:
 
@@ -77,14 +77,14 @@ Add it in your root build.gradle at the end of repositories:
 **Step 2.** Add the dependency
 ```sh
   dependencies {
-          implementation 'com.github.birdeveloper:SpecialView:1.0'
+          implementation 'com.github.birdeveloper:SpecialView:1.1'
   }
 ```
 
 
 
 <!-- USAGE EXAMPLES -->
-## [Usage](#usage)
+## Usage
 
 Android Studio can also be applied in the design section.
 
@@ -179,14 +179,14 @@ Android Studio can also be applied in the design section.
         app:topRightRadius="100dp"/>
 ```
 <!-- Problems -->
-## [Problems](#problems)
+## Problems
 
 See the [open issues](https://github.com/birdeveloper/SpecialView/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- CONTRIBUTING -->
-## [Contributing](#contributing)
+## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -199,14 +199,14 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- LICENSE -->
-## [License](#license)
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
-## [Contact](#contact)
+## Contact
 
 Görkem KARA - [@gorkemkara](https://tr.linkedin.com/in/gorkemkara) - [email](mailto:birdeveloper.com@gmail.com)
 
@@ -215,7 +215,7 @@ Project Link: [https://github.com/birdeveloper/SpecialView](https://github.com/b
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## [Acknowledgements](#acknowledgements)
+## Acknowledgements
 
 * []()
 
